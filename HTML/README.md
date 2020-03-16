@@ -1,9 +1,6 @@
+# HTML
 - HypterText Markup Language
 - HTML is the foundation of all websites
-
-```
-<h1> Aish is Awesome </h1>
-```
 
 ## Tags
 
@@ -12,7 +9,6 @@
 - Atrributes are the thingies within the tag opening and closing that tell the browser more information about the content. Eg `<hr size="3">` tells the browser how thich the line ought to be. You need to refer to documentation to check these out
 
 ```
-
 <center>
 <h1> Yo </h1>
 <br>
@@ -20,3 +16,7 @@
 </center>
 
 ```
+
+- Comments in html `<!-- -->`
+
+
