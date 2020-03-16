@@ -20,3 +20,18 @@
 - Comments in html `<!-- -->`
 
 
+## Boiler Plate
+- The basic template/structure
+
+```
+<!DOCTYPE html> <!-- render this version of html -->
+<html lang="en" dir="ltr"> <!-- render this version of html -->
+  <head>
+    <meta charset="utf-8">
+    <title> Aish's Personal Site </title>
+  </head>
+  <body>
+    
+  </body>
+</html>
+```
