@@ -86,3 +86,7 @@ h1 {
 }
 ```
 - html element will look like this `<img id="cool_heading" class="fun" src="https://pngimage.net/wp-content/uploads/2018/06/fun-png-1.png" alt="">`
+
+## Div
+- div tags helps in structuring content
+- By itself it does not do anything, it only works if used with CSS
