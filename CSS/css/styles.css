@@ -21,6 +21,6 @@ h1 {
 }
 
 /* ID Selectors */
-/* #cool_heading {
+#cool_heading:hover {
   background-color: blue
-} */
+}
