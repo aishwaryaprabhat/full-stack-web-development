@@ -83,3 +83,34 @@
 ## Links and Anchors
 - `<a href="https://www.aishwaryaprabhat.com">Aishwarya Prabhat</a>`
 - `<a href="hobbies.html">Hobbies</a>`
+
+
+## Tables
+
+```
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <hr>
+    <table>
+      <tr>
+        <td>Website</td>
+        <td><a href="www.aishwaryaprabhat.com">aishwaryaprabhat.com</a></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>aishwaryaprabhat@gmail.com</td>
+      </tr>
+      <tr>
+        <td>LinkedIn</td>
+        <td><a href="www.linkedin.com/in/aishwaryaprabhat">Aishwarya Prabhat</a></td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
