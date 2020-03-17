@@ -25,3 +25,24 @@
   </style>
   <body>
 ```
+
+## External CSS
+- File structure can be something like this
+```
+├── README.md
+├── contactme.html
+├── css
+│   └── styles.css
+├── hobbies.html
+├── index.html
+└── skills.html
+```
+- We need to add a link in the head of our HTML files
+```
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aish's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+```
