@@ -51,6 +51,7 @@
 - `selector {property: value}`
 
 ## Class Selectors
+- Gives us more flexibility instead of applying a blanket policy to all elements of the same type
 ```
 /* Tag Selectors */
 body {
@@ -73,3 +74,15 @@ h1 {
   background-color: red;
 }
 ```
+- html element will look like this `<img id="cool_heading" class="fun" src="https://pngimage.net/wp-content/uploads/2018/06/fun-png-1.png" alt="">`
+
+## ID Selectors
+- ID is really really specific. You can only have one unique ID per page
+- Class can be applied to several elements, on the other hand
+```
+/* ID Selectors */
+#cool_heading {
+  background-color: blue
+}
+```
+- html element will look like this `<img id="cool_heading" class="fun" src="https://pngimage.net/wp-content/uploads/2018/06/fun-png-1.png" alt="">`

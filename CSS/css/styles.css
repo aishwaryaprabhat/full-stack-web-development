@@ -18,3 +18,8 @@ h1 {
 .fun {
   background-color: red;
 }
+
+/* ID Selectors */
+#cool_heading {
+  background-color: blue
+}
