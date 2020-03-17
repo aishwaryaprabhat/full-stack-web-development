@@ -52,6 +52,7 @@
 
 ## Class Selectors
 - Gives us more flexibility instead of applying a blanket policy to all elements of the same type
+
 ```
 /* Tag Selectors */
 body {
@@ -79,6 +80,7 @@ h1 {
 ## ID Selectors
 - ID is really really specific. You can only have one unique ID per page
 - Class can be applied to several elements, on the other hand
+
 ```
 /* ID Selectors */
 #cool_heading {
@@ -91,3 +93,31 @@ h1 {
 - div tags helps in structuring content
 - By itself it does not do anything, it only works if used with CSS
 - div is a content division element, to group things together
+
+```
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C5603AQGlvo06vwz_uA/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=CN7jAOknMREZRgYotGZ8L8kk1byp9PlzvfYVB-hJMhk">
+  </head>
+  <body>
+    <div class="">
+      <h1>I am Aish</h1>
+      <p>The first two letters of my name are AI and that is what I am passionate about</p>
+    </div>
+    <div class="">
+
+    </div>
+
+  </body>
+</html>
+
+```
+
+## Box Model
+- Every element in HTML is a box
+
+ ![](https://www.w3.org/TR/CSS2/images/boxdim.png)
