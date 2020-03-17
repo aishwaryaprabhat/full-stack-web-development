@@ -86,6 +86,7 @@
 
 
 ## Tables
+- Tables can also be used for creating a neat layout
 ```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
