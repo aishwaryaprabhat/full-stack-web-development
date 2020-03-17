@@ -86,7 +86,6 @@
 
 
 ## Tables
-
 ```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -117,6 +116,33 @@
         <td><a href="www.linkedin.com/in/aishwaryaprabhat">Aishwarya Prabhat</a></td>
       </tr>
     </table>
+  </body>
+</html>
+```
+
+## Forms
+
+```
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Contact Me and Let Me Scam You 😈</h1>
+    <form class="" action="mailto:aishwaryaprabhat@gmail.com" method="post">
+      <label for="">Your Name</label>
+      <input type="text" name="yourName" value=""><br>
+      <label for="">Your Email</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label for="">Your Credit Card Number (for me to scam you)</label>
+      <input type="password" name="" value=""><br>
+      <label for="">Your 3 digit cvv code</label>
+      <input type="password" name="" value=""><br>
+      <textarea name="name" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="" value="Submit">
+    </form>
   </body>
 </html>
 ```
