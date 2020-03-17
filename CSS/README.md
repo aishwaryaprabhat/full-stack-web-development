@@ -46,3 +46,30 @@
     <title>Aish's Personal Site</title>
     <link rel="stylesheet" href="css/styles.css">
 ```
+
+## Anatomay of CSS Syntax
+- `selector {property: value}`
+
+## Class Selectors
+```
+/* Tag Selectors */
+body {
+      background-color: #ffd1bd;
+}
+hr {
+    background-color: white;
+    border-style: dotted none none;
+    width: 30%;
+}
+h3 {
+    color: #481380;
+}
+h1 {
+  color: #481380;
+}
+
+/* Class Selectors */
+.fun {
+  background-color: red;
+}
+```

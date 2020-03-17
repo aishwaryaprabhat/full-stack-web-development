@@ -1,3 +1,4 @@
+/* Tag Selectors */
 body {
       background-color: #ffd1bd;
 }
@@ -11,4 +12,9 @@ h3 {
 }
 h1 {
   color: #481380;
+}
+
+/* Class Selectors */
+.fun {
+  background-color: red;
 }
