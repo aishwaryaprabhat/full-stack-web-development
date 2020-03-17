@@ -98,6 +98,12 @@
     <h1>Contact Me</h1>
     <hr>
     <table>
+      <thead>
+        <tr>
+          <th>Medium</th>
+          <th>Link</th>
+        </tr>
+      </thead>
       <tr>
         <td>Website</td>
         <td><a href="www.aishwaryaprabhat.com">aishwaryaprabhat.com</a></td>
@@ -113,4 +119,5 @@
     </table>
   </body>
 </html>
+
 ```
