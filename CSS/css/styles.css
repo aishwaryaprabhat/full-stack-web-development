@@ -15,11 +15,12 @@ h1 {
 }
 
 /* Class Selectors */
-.fun {
+.fun:hover {
   background-color: red;
+
 }
 
 /* ID Selectors */
-#cool_heading {
+/* #cool_heading {
   background-color: blue
-}
+} */
