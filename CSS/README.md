@@ -90,3 +90,4 @@ h1 {
 ## Div
 - div tags helps in structuring content
 - By itself it does not do anything, it only works if used with CSS
+- div is a content division element, to group things together
