@@ -6,12 +6,11 @@ body {
 }
 
 h1 {
+  font-size: 90px;
   width: 10%
   margin: 0 auto 0 auto;
   font-family: 'Dancing Script', cursive;
-
 }
-
 
 
 .top-container {

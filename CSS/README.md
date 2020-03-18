@@ -218,3 +218,18 @@ body {
       font-family: 'Dancing Script', cursive;
     }
 ```
+
+## Font size
+- Static size
+```
+h1 {
+  font-size: 90px;
+  width: 10%
+  margin: 0 auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+
+}
+```
+- For dynamic size use %
+- Always consider size of parent because size of child gets added to parent
+- We can use `font-size: 5rem` which is root em to ignore parents' sizes
