@@ -2,14 +2,17 @@
 body {
   margin-top: 0;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+
 }
 
 h1 {
   width: 10%
   margin: 0 auto 0 auto;
+  font-family: 'Dancing Script', cursive;
 
 }
+
+
 
 .top-container {
   background-color: #ffd1bd;
