@@ -219,7 +219,7 @@ body {
     }
 ```
 
-## Font size
+## Font Size
 - Static size
 ```
 h1 {
@@ -233,3 +233,17 @@ h1 {
 - For dynamic size use %
 - Always consider size of parent because size of child gets added to parent
 - We can use `font-size: 5rem` which is root em to ignore parents' sizes
+
+## Font Colour
+- `color: #66BFBF`
+
+## Text Wrapping
+- Helps to make it look as though image is inline with
+```
+float: right;
+```
+- We can use `clear` property as anti-float in case we don't want the paragraph to be wrapped around the image
+
+
+## Button
+- Go to https://www.bestcssbuttongenerator.com/ and get the CSS and HTML code

@@ -31,3 +31,48 @@ h1 {
   left: 500px;
   bottom: 300px;
 }
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.bottom-container {
+  background-color: #ffd1bd;
+  padding: 50px 0 20px 0;
+}
+
+a {
+  color: black;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:8px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
