@@ -121,3 +121,26 @@ h1 {
 - Every element in HTML is a box
 
  ![](https://www.w3.org/TR/CSS2/images/boxdim.png)
+
+## Favicon
+
+```
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C5603AQGlvo06vwz_uA/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=CN7jAOknMREZRgYotGZ8L8kk1byp9PlzvfYVB-hJMhk">
+  </head>
+  <body>
+    <div class="">
+      <h1>I am Aish</h1>
+      <p>The first two letters of my name are AI and that is what I am passionate about</p>
+    </div>
+    <div class="">
+
+    </div>
+
+  </body>
+</html>
+```
