@@ -123,7 +123,7 @@ h1 {
  ![](https://www.w3.org/TR/CSS2/images/boxdim.png)
 
 ## Favicon
-
+- Insert icon element in the head
 ```
 <html lang="en" dir="ltr">
   <head>
@@ -144,3 +144,14 @@ h1 {
   </body>
 </html>
 ```
+
+## Display Property
+- Everything is a box and its blocking eg: paragraphs, h1 etc
+- We can use <span> to make something inline. Inline elements take the width of the content
+- For block elements, the height is determined by the content
+- We can use the display property in any css object and set it to inline, block or inline-block
+- We can use visibility: hidden to hide elements
+
+## Static and Relative Positioning
+- Default layout order is determined by which order we 'type' them in our code
+- Kids sit on top of parents
