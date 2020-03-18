@@ -155,3 +155,66 @@ h1 {
 ## Static and Relative Positioning
 - Default layout order is determined by which order we 'type' them in our code
 - Kids sit on top of parents
+- We can use the position property in CSS to override default positions
+  - Static: stick to default
+  - Relative: relative to default position....using top, bottom, left and right
+
+## Absolute and Fixed Positioning
+- Absolute positioning means relative to parent element
+- Fixed stays even when you scroll eg: a navigation bar
+
+
+## Aligning by Centre
+- Using text-align
+```
+
+body {
+  margin-top: 0;
+  background-color: #ffd1bd;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0
+}
+
+img {
+  display: inline;
+}
+
+```
+- Using margin (if width is set)
+```
+h1 {
+  width: 10%
+  margin: 0 auto 0 auto;
+}
+```
+
+## Font and Font Family
+- There are web-safe fonts that most browsers can render them correctly
+```
+body {
+  margin-top: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+```
+- We can use font-embedding to be absolutely sure that every suer sees the same font regardless of their browser or OS
+- You can go to fonts.google.com and then embed the fonts using href
+```
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C5603AQGlvo06vwz_uA/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=CN7jAOknMREZRgYotGZ8L8kk1byp9PlzvfYVB-hJMhk">
+    <link href="https://fonts.googleapis.com/css?family=Bellota|Dancing+Script&display=swap" rel="stylesheet">
+
+
+    body {
+      margin-top: 0;
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+    }
+```
