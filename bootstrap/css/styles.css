@@ -12,6 +12,5 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
-  position: static;
+  padding: auto 25%;
 }
