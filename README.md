@@ -38,3 +38,6 @@ Go to the specific directory to see the tutorial/cheatsheet for each topic
 
 ## Try Stuff Out
 - [http://codeply.com/](http://codeply.com/)
+
+## Inspiration
+- [Snippets of Bootstrap Code](https://bootsnipp.com/)
