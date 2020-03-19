@@ -97,10 +97,28 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 ![](../readme_images/container.png)
 
 ## Buttons
-- To add icons to button go to [fontawesome.ccom](fontawesome.com)
+- To add icons to button go to [fontawesome.ccom](fontawesome.com) or [this](https://materializecss.com/icons.html)
 - Refer to bootstrap documentation for the kind of button you want
 
 ```
 <button type="button" class="btn btn-dark btn-lg">Download</button>
 <button type="button" class="btn btn-outline-danger btn-lg">Download</button>
+```
+## Carousel
+- Refer to [documentation](https://getbootstrap.com/docs/4.4/components/carousel/#individual-carousel-item-interval)
+
+```
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
 ```
