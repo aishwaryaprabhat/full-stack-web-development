@@ -57,3 +57,12 @@
 </div>
 ```
 ![](../readme_images/cols.png)
+- 4 cols on Laptop, 3 on tablet, 2 on phone
+```
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">Simple Column</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">Simple Column</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">Simple Column</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">Simple Column</div>
+</div>
+```
