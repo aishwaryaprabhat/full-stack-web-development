@@ -7,10 +7,39 @@
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  line-height: 1.5;
+  color: white;
+  /* line-height: 1.5; */
 
 }
 
 .container-fluid {
-  padding: auto 25%;
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+/* Nav Bar */
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 3.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.nav-item {
+  padding: 18px
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
 }
