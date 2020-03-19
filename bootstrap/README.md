@@ -174,3 +174,17 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
       </div>
     </div>
 ```
+
+## Media Breaks
+
+- For making sure it works on mobiles etc
+
+```
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+```

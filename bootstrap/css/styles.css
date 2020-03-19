@@ -1,5 +1,6 @@
 #title {
   background-color: #ff4c68;
+  padding-bottom: 25%;
 
 }
 
@@ -59,10 +60,22 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
 }
 
 #features {
   padding: 7% 15%;
+  position: relative;
+
 }
 
 .feature-box {
