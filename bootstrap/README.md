@@ -188,3 +188,27 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
   }
 }
 ```
+
+## Refactoring Code/Multiple Selectors
+
+```
+h1, h2 , h3 {
+  font-family: ...;
+}
+```
+
+- Hierarchical selectors title inside dev
+
+```
+div #title {
+  color: red
+}
+```
+
+- Combines selectors
+
+```
+selector1.selector2 {
+
+}
+```
