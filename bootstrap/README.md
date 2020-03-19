@@ -32,3 +32,28 @@
 
 ![](../readme_images/nav1.png)
 ![](../readme_images/nav2.png)
+
+## Layout
+- 12 units in the row
+- Simple kind
+```
+<div class="row">
+    <div class="col" style="background-color:red; border: 1px solid">Simple Column</div>
+    <div class="col" style="background-color:red; border: 1px solid">Simple Column</div>
+</div>
+```
+- Takes up n spaces as defined by col-n
+```
+<div class="row">
+    <div class="col-6" style="background-color:green; border: 1px solid">Simple Column</div>
+    <div class="col-6" style="background-color:green; border: 1px solid">Simple Column</div>
+</div>
+```
+- Adaptive to screen size
+```
+<div class="row">
+    <div class="col-md-6" style="background-color:yellow; border: 1px solid">Simple Column</div>
+    <div class="col-md-6" style="background-color:yellow; border: 1px solid">Simple Column</div>
+</div>
+```
+![](../readme_images/cols.png)
