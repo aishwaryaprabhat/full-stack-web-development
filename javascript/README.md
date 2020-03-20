@@ -21,3 +21,8 @@ alert("Hi "+name)
 - Length `str.length`
 - Slicing `str.slice(x,y)` from x to not including y
 - `toUpperCase()`
+
+```
+var name = prompt("What is your name?")
+alert("Hi, "+name.slice(0,1).toUpperCase()+name.slice(1,name.length))
+```
