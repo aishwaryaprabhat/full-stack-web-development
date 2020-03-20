@@ -26,3 +26,27 @@ alert("Hi "+name)
 var name = prompt("What is your name?")
 alert("Hi, "+name.slice(0,1).toUpperCase()+name.slice(1,name.length))
 ```
+
+## Other Operators
+- +, -, /, * , %
+- x++, x--
+- Math.floor()
+
+## Functions
+- Basic structure
+
+```
+function getMilk() {
+  ...
+}
+```
+
+- Parameters and Arguments
+
+```
+function getMilk(nBottles) {
+  ...
+}
+```
+
+- return (similar to python return)
