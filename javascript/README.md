@@ -67,7 +67,44 @@ function getMilk(nBottles) {
 ```
 if (track==="clear"){
   goStraight();
+} else if (track==="not sure") {
+  stop();
 } else {
   turnRight();
+}
+```
+
+## Array
+
+```
+var eggs = [1,2,3,4,5]
+eggs[1]
+eggs.includes(2)
+eggs.push(new_egg) //...similar to append in Python
+eggs.pop() //similar to list.pop() in Python
+```
+
+## While Loop
+
+```
+while (something is true) {
+  do something();
+}
+```
+
+```
+var i = 1;
+
+while (i<2) {
+  console.log(i);
+  i++;
+}
+```
+
+## For Loops
+
+```
+for (i=0; i<2; i++) {
+  //do something;
 }
 ```
