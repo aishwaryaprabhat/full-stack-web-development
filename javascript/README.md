@@ -31,6 +31,16 @@ alert("Hi, "+name.slice(0,1).toUpperCase()+name.slice(1,name.length))
 - +, -, /, * , %
 - x++, x--
 - Math.floor()
+- Math.random() (between 0 and 1 (not inclusive))
+
+## Comparators
+- ===
+- !==
+- >
+- <
+- >=
+- <=
+- &&/||for combining comparators
 
 ## Functions
 - Basic structure
@@ -50,3 +60,14 @@ function getMilk(nBottles) {
 ```
 
 - return (similar to python return)
+
+
+# Control Statements/Conditionals
+
+```
+if (track==="clear"){
+  goStraight();
+} else {
+  turnRight();
+}
+```
