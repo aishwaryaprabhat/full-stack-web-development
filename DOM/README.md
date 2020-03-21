@@ -60,3 +60,9 @@
 - HTML elements have properties and methods
 - Properties can be get and set
 - Methods can be triggered
+
+## Get Elements using JS
+- document.getElementsByClassName('className') returns array
+- document.getElementsByTag('tagName') returns array
+- document.getElementById() returns id
+- document.querySelector() similar to using CSS
