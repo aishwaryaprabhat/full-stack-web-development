@@ -66,3 +66,31 @@
 - document.getElementsByTag('tagName') returns array
 - document.getElementById() returns id
 - document.querySelector() similar to using CSS
+
+```
+document.querySelector("li a") //returns  first anchor in the list
+document.querySelector(".btn") //returns first button class
+document.querySelector("h1")
+```
+
+- document.querySelectorAll() returns array
+
+
+## Separation of Concerns
+- It is best to use HTML for structure, CSS for styling and JS for behaviour
+- One good way to do this is to add styles in CSS then toggle them using JS
+
+```
+document.querySelector().classList.add("mynewclass")
+document.querySelector().classList.remove("mynewclass")
+document.querySelector().classList.toggle("mynewclass")
+```
+
+## Text Manipulation
+- document.querySelector("h1").innerHTML returns inner HTML regardless of element; it will also return any html like <em> as well
+- document.querySelector("h1").textContent returns only the text
+
+## Attribute Manipulation
+- document.querySelector().attributes returns an array of attributes of that particular element
+- document.querySelector().getAttribute() returns specific attribute
+- document.querySelector().setAttribute() sets, takes 2 arguments - the attribute and the value
