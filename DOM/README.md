@@ -56,3 +56,7 @@
 ## DOM
 
 ![](../readme_images/dom.png)
+
+- HTML elements have properties and methods
+- Properties can be get and set
+- Methods can be triggered
