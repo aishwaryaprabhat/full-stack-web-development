@@ -19,3 +19,22 @@ import ReactDOM from "react-dom";
 
 ReactDOM.render(<h1>Hello!</h1>, document.getElementById("root"));
 ```
+
+
+- Multiple HTML elements in one render function
+
+```
+// var React = require("react");
+// var ReactDOM = require("react-dom");
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+  <div>
+    <h1>Hello!</h1>
+    <p>Helloooo!!!!!</p>
+  </div>,
+  document.getElementById("root")
+);
+```
