@@ -94,3 +94,14 @@ document.querySelector().classList.toggle("mynewclass")
 - document.querySelector().attributes returns an array of attributes of that particular element
 - document.querySelector().getAttribute() returns specific attribute
 - document.querySelector().setAttribute() sets, takes 2 arguments - the attribute and the value
+
+
+## Button Event Listeners
+
+```
+document.querySelector("button").addEventListener("click", handleClick);
+
+function handleClick(){
+  alert("Button has been clicked motherf****!!!!!");
+}
+```
