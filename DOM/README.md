@@ -105,3 +105,11 @@ function handleClick(){
   alert("Button has been clicked motherf****!!!!!");
 }
 ```
+
+It can also be an anonymous function
+
+```
+document.querySelector("button").addEventListener("click", function (){
+  alert("Button has been clicked motherf****!!!!!");
+})
+```
