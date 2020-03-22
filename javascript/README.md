@@ -147,4 +147,6 @@ var DataScientist (name, salary, skills) {
   this.salary = salary,
   this.skills = skills
 }
+
+var bestDataScientist = new DataScientist("Aish", "$240,000", ["sql", "machine learning"])
 ```
