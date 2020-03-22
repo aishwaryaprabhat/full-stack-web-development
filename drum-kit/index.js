@@ -9,12 +9,14 @@ for (var i=0; i<document.querySelectorAll(".drum").length; i++) {
 
     var drumElement = this.innerHTML;
     playSound(drumElement);
+    animateButton(drumElement)
     }
   )
 }
 
 document.addEventListener("keydown", function(event){
   playSound(event.key);
+  animateButton(event.key)
 }
 )
 
@@ -50,11 +52,16 @@ function playSound(drumElement) {
       audio.play();
       break;
     default:
-      break;
+      var audio =  new Audio("sounds/tom-4.mp3");
+      audio.play();
   }
 }
 
 function animateButton(drumElement) {
   var activeButton = document.querySelector("."+drumElement)
-  
+  activeButton.classList.toggle("pressed")
+  setTimeout(function(){
+    activeButton.classList.toggle("pressed")
+  }, 100)
+
 }

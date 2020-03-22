@@ -150,3 +150,5 @@ var DataScientist (name, salary, skills) {
 
 var bestDataScientist = new DataScientist("Aish", "$240,000", ["sql", "machine learning"])
 ```
+
+## Switch Statements
