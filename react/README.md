@@ -60,3 +60,23 @@ ReactDOM.render(
 );
 
 ```
+
+## Inseritng JS code in HTML in React
+- We use {}
+
+```
+// var React = require("react");
+// var ReactDOM = require("react-dom");
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+var a = 6;
+ReactDOM.render(
+  <div>
+    <h1>Hello!</h1>
+    <p>{a}</p>
+  </div>,
+  document.getElementById("root")
+);
+```
