@@ -108,3 +108,43 @@ for (i=0; i<2; i++) {
   //do something;
 }
 ```
+
+## Passing functions as arguments
+
+```
+function multiply(num1, num2) {
+  return num1*num2;
+}
+
+function add(num1, num2){
+  return num1+num2;
+}
+
+function calculatr(num1, num2, operator){
+  return operator(num1, num2);
+}
+```
+
+## Objects in JS
+
+- Simple object with multiple variables
+
+```
+var dataScientist = {
+  name: "Aishwarya Prabhat",
+  salary: "$240,000",
+  skills: ["sql", "machine learning"]
+}
+```
+
+`dataScientist.salary`
+
+- Constructor function
+
+```
+var DataScientist (name, salary, skills) {
+  this.name = name,
+  this.salary = salary,
+  this.skills = skills
+}
+```
