@@ -185,7 +185,7 @@ function Heading() {
 export default Heading
 ```
 
-  - Our index.js will ue it by importing
+  - Our index.js will use it by importing
 
 ```
   import React from "react";

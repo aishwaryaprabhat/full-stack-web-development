@@ -236,3 +236,5 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
+
+- Can also use `import * as pi from "./math.js"`
