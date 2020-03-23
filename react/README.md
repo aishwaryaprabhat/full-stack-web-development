@@ -129,3 +129,41 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
+
+## Example: Change styling based on some logic
+- Greeting changes color based on timing
+
+```
+import React from "react";
+import ReactDOM from "react-dom";
+
+
+const customStyle = {
+  color: "red",  
+}
+
+var d = new Date(2020, 1, 1);
+var now = d.getHours();
+
+if (now < 12) {
+  customStyle.color = "red";
+
+} else if (now>12 & now<19){
+  customStyle.color = "blue";
+
+} else {
+  customStyle.color = "green";
+}
+
+
+// customStyle.color = "blue";
+
+var a = 7;
+ReactDOM.render(
+  <div>
+    <h1 className="heading" style={customStyle}>Hello!</h1>
+    <p>{a}</p>
+  </div>,
+  document.getElementById("root")
+);
+```
