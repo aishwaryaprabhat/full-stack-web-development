@@ -167,3 +167,40 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
+
+
+## React Components
+- Splitting large file into smaller components for ease of debugging and reusability
+- [Airbnb style guide](https://github.com/airbnb/javascript)
+- Example
+  -  We have a file called "Heading.jsx"
+
+```
+import  React from "react";
+
+function Heading() {
+  return <h1>My Favourite Foods</h1>;
+}
+
+export default Heading
+```
+
+  - Our index.js will ue it by importing
+
+```
+  import React from "react";
+import ReactDOM from "react-dom";
+import Heading from "./Heading"
+
+ReactDOM.render(
+  <div>
+    <Heading />
+    <ul>
+      <li>Bacon</li>
+      <li>Jamon</li>
+      <li>Noodles</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
+```
