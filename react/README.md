@@ -62,7 +62,8 @@ ReactDOM.render(
 ```
 
 ## Inseritng JS code in HTML in React
-- We use {}
+- We use {} to insert expressions (not statements)
+- We cant right JS statements like if-else statements
 
 ```
 // var React = require("react");
@@ -75,6 +76,54 @@ var a = 6;
 ReactDOM.render(
   <div>
     <h1>Hello!</h1>
+    <p>{a}</p>
+  </div>,
+  document.getElementById("root")
+);
+```
+
+
+## Styling using CSS
+
+```
+import React from "react";
+import ReactDOM from "react-dom";
+
+var a = 7;
+ReactDOM.render(
+  <div>
+    <h1 className="heading">Hello!</h1>
+    <p>{a}</p>
+  </div>,
+  document.getElementById("root")
+);
+```
+
+```
+.heading {
+  color: red;
+}
+```
+
+## Inline Styling
+
+```
+import React from "react";
+import ReactDOM from "react-dom";
+
+
+const customStyle = {
+  color: "red",
+  fontSize: "20px",
+  border: "1px solid black"
+}
+
+customStyle.color = "blue";
+
+var a = 7;
+ReactDOM.render(
+  <div>
+    <h1 className="heading" style={customStyle}>Hello!</h1>
     <p>{a}</p>
   </div>,
   document.getElementById("root")
