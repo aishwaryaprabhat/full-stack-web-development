@@ -193,3 +193,46 @@ function playSound(drumElement) {
 ```
 
 ## Import and Export in ES6
+- Ever file can only have on default export
+
+```
+//math.js
+const pi = 3.1415962;
+export default pi;
+```
+
+```
+//index.jss
+import pieeee from "./math.js"
+```
+
+- Multiple exports/imports
+
+```
+const pi = 3.1415962;
+
+function doublePi() {
+  return pi * 2;
+}
+
+function triplePi() {
+  return pi * 3;
+}
+
+export default pi;
+export { doublePi, triplePi };
+
+```
+
+```
+import pieeee, {doublePi, triplePi} from "./math.js"
+
+ReactDOM.render(
+  <div>
+    <Heading />
+    <List />
+    {pieeee}, {doublePi}, {triplePi}
+  </div>,
+  document.getElementById("root")
+);
+```
