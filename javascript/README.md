@@ -238,3 +238,66 @@ ReactDOM.render(
 ```
 
 - Can also use `import * as pi from "./math.js"`
+
+## Map/Filter/Reduce/Find/FindIndex
+
+- map (more concise than foreach())
+
+```
+var numbers = [1,2,3,4,5,6];
+var newnumbers = [];
+
+function double(x){
+        return x*2
+}
+
+console.log(numbers.map(double))
+```
+
+- filter
+
+```
+var numbers = [1,2,3,4,5,6];
+
+const a = numbers.filter(function(num){
+  return num%2===0;
+})
+
+console.log(a)
+```
+
+- reduce: accumulate a value by doing something to each item in an array
+
+```
+var numbers = [1,2,3,4,5,6];
+
+const a = numbers.reduce(function(accumulator, num){
+  return accumulator+num
+})
+
+console.log(a)
+```
+
+- find: stops when condition met the first time
+
+```
+var numbers = [1,2,3,4,5,6];
+
+const a = numbers.find(function(num){
+  return num>3
+})
+
+console.log(a)
+```
+
+- findIndex: returns index of first element that matches condition
+
+```
+var numbers = [1,2,3,4,5,6];
+
+const a = numbers.findIndex(function(num){
+  return num>3
+})
+
+console.log(a)
+```
