@@ -204,3 +204,68 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
+
+## React Props (Properties)
+- Passing arguments to functions to render custom elements for reusability
+
+```
+import React from "react";
+import ReactDOM from "react-dom";
+
+function Card(props) {
+  return (
+    <div>
+      <h2>{props.name}</h2>
+      <img src={props.img} alt="avatar_img"/>
+      <p>{props.contact}</p>
+      <p>{props.email}</p>
+    </div>
+  );
+}
+
+
+ReactDOM.render(
+  <div>
+    <h1>My Contacts</h1>
+    
+    <Card name="Beyonce" 
+    img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg" 
+    email="b@yonce.com"
+    contact="1349891230"/>
+    
+  </div>,
+  document.getElementById("root")
+);
+```
+
+## Mapping Data to Components
+- Its like a for loop
+- The key property is a necessary part of react component
+
+```
+import React from "react";
+import Card from "./Card";
+import contacts from "../contacts";
+// import { create } from "istanbul-reports";
+
+function createCard(contact) {
+  return <Card key = {contact.id}
+                name={contact.name}
+                img={contact.imgURL}
+                tel = {contact.phone} 
+                email = {contact.email}
+                />;
+}
+
+function App() {
+  return (
+    <div>
+      <h1 className="heading">My Contacts</h1>
+      {contacts.map(createCard)}
+      />
+    </div>
+  );
+}
+
+export default App;
+```
