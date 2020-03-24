@@ -41,3 +41,5 @@ Go to the specific directory to see the tutorial/cheatsheet for each topic
 
 ## Inspiration
 - [Snippets of Bootstrap Code](https://bootsnipp.com/)
+
+## [https://reactjs.org/docs/lists-and-keys.html#keys](React Bootstrap)
